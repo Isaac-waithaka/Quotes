@@ -9,7 +9,7 @@
     <div class="card-body">
     <h4 id={{i}} appHighlight>{{quote.quotation}}</h4>
     <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
-  </div>
+  </div> 
 
     <div *ngIf='quote.showAuthor'>
       <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote' (toDelete) = 'deleteQuote($event,i)'></app-quote-detail>
