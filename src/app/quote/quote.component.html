@@ -8,7 +8,7 @@
   <div *ngFor='let quote of quotes;let i = index' class="card" style="width: 24rem;">
     <div class="card-body">
     <h4 id={{i}} appHighlight>{{quote.quotation}}</h4>
-    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
   </div>
 
     <div *ngIf='quote.showAuthor'>

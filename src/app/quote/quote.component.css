@@ -1,0 +1,31 @@
+h1{
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+h4{
+  font-family: 'Architects Daughter', cursive;
+}
+span{
+  font-family: 'Architects Daughter', cursive;
+}
+#name{
+  color:rgb(43, 214, 0);
+  font-weight: 700;
+}
+#datecolor{
+  color: #008F23;
+  font-weight: 700;
+}
+.all-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#date{
+  float: right;
+  font-size: 14px;
+}
