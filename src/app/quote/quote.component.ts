@@ -5,7 +5,7 @@ import { Quote } from '../quote';
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css']
 })
-export class QuoteComponent implements OnInit {
+export class QuoteComponent implements OnInit { 
 
   quotes:Quote[] =[
     new Quote(1,'You only live once, but if you do it right, once is enough.','Mae West',new Date(2020,9,12),0,0),
